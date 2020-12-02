@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'loggi.com'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.beam', name: 'beam-sdks-java-core', version: '2.23.0'
+}
